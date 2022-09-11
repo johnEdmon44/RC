@@ -330,6 +330,7 @@ nav h3{
 .events{
   border: 1px solid white;
   background-color: var(--light-grey2-color);
+  width: 300px;
 }
 
 
