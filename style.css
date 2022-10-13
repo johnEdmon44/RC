@@ -424,3 +424,18 @@ nav a {
   text-decoration: none;
   color: white;
 }
+
+
+nav li::after {
+  content: '';
+  display: flex;
+  width: 0;
+  height: 2px;
+  background: var(--dark-blue-color);
+  transition: width .4s ease-in;
+}
+
+
+nav li:hover::after {
+  width: 100%;
+}
